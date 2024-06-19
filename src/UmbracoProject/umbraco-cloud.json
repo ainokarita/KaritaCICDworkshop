@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "karitacicdworkshop",
+      "Alias": "karitacicdworkshop",
+      "Id": "bf4274f7-5585-4c98-ab5e-8d1b7124269c",
+      "Workspaces": [
+        {
+          "Id": "6fde0712-5411-4f17-bc40-a45a9dae0970",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://karitacicdworkshop.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
