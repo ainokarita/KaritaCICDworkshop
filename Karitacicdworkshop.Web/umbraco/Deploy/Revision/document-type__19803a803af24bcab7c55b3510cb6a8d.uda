@@ -1,0 +1,57 @@
+{
+  "Name": "Text page",
+  "Alias": "textPage",
+  "DefaultTemplate": "umb://template/03e9329336ae41859ee35458858288a3",
+  "AllowedTemplates": [
+    "umb://template/03e9329336ae41859ee35458858288a3"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-notepad",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": [
+      "umb://document-type/19803a803af24bcab7c55b3510cb6a8d"
+    ]
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "77e83c5c-d34e-423d-988a-af4291cea044",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "2aae3c6d-cd8f-482c-b037-4147a9b129cb",
+          "Alias": "textBox",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Text box",
+          "SortOrder": 1
+        },
+        {
+          "Key": "d3a85b4c-e068-447e-adc8-407e1f01ce33",
+          "Alias": "header",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Header"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/19803a803af24bcab7c55b3510cb6a8d",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/19803a803af24bcab7c55b3510cb6a8d"
+    },
+    {
+      "Udi": "umb://template/03e9329336ae41859ee35458858288a3",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "14.0.1"
+}
