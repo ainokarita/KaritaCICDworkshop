@@ -6,6 +6,12 @@
       "Id": "bf4274f7-5585-4c98-ab5e-8d1b7124269c",
       "Workspaces": [
         {
+          "Id": "65e6f6e3-3540-4af5-829c-d18e443cf4b8",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-karitacicdworkshop.euwest01.umbraco.io"
+        },
+        {
           "Id": "6fde0712-5411-4f17-bc40-a45a9dae0970",
           "Name": "Live",
           "Type": "live",
