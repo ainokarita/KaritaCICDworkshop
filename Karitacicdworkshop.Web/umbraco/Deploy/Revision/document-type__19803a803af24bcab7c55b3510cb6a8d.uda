@@ -29,13 +29,6 @@
           "SortOrder": 1
         },
         {
-          "Key": "653aa990-244b-4a66-8935-effb9f0fb701",
-          "Alias": "seeMeWork",
-          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
-          "Name": "See me work",
-          "SortOrder": 2
-        },
-        {
           "Key": "d3a85b4c-e068-447e-adc8-407e1f01ce33",
           "Alias": "header",
           "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
@@ -49,10 +42,6 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
-      "Ordering": true
-    },
-    {
-      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
       "Ordering": true
     },
     {
