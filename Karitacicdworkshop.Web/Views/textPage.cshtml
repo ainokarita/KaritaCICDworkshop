@@ -1,8 +1,8 @@
 ﻿@using Umbraco.Cms.Web.Common.PublishedModels;
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<TextPage>
 @{
 	Layout = null;
 }
 
-<h1>@Model.Value("header")</h1>
-<p>@Model.Value("textBox")</p>
+<h1>@Model.Header</h1>
+<p>@Model.TextBox</p>
