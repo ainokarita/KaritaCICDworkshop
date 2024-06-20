@@ -8,7 +8,6 @@
   "HistoryCleanup": {},
   "Icon": "icon-notepad",
   "Thumbnail": "folder.png",
-  "Description": "text page description",
   "Permissions": {
     "AllowedAtRoot": true,
     "AllowedChildContentTypes": [
